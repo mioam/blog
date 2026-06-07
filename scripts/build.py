@@ -36,12 +36,14 @@ def build_index():
                 "file": str(
                     md_file.relative_to(ROOT)
                 ).replace("\\", "/"),
-                "slug": frontmatter.get("slug"),
+                "slug": md_file.stem,
                 "title": frontmatter.get("title"),
                 "summary": frontmatter.get("summary"),
                 "date": frontmatter.get("date"),
             }
         )
+        print(frontmatter.get("date"))
+    articles.sort(key=lambda x: x['date'])
 
     return articles
 
