@@ -1,6 +1,6 @@
 ---
 title: 测试文章
-date: 0000-01-01 00:00:00
+date: 1-01-01 00:00:00
 tags: 
 categories: 
 mathJax: true
