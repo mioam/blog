@@ -26,7 +26,7 @@ mathJax: true
 
 ### 实现
 
-```
+```cpp
 #include<bits/stdc++.h>
 #define N 405
 #define inf (n*m*10)

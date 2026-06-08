@@ -24,7 +24,7 @@ categories: atcoder
 
 ### 实现
 
-```
+```cpp
 #include<bits/stdc++.h>
 #define P 998244353
 #define ll long long

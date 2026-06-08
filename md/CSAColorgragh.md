@@ -36,7 +36,7 @@ mathJax: true
 
 ### 实现
 
-```
+```cpp
 #include<bits/stdc++.h>
 #define N 255
 using namespace std;

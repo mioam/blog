@@ -21,7 +21,7 @@ categories: joi
 
 ### 实现
 
-```
+```cpp
 #include<bits/stdc++.h>
 #define N 400005
 using namespace std;
